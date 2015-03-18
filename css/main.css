@@ -1,0 +1,137 @@
+@import url(http://fonts.googleapis.com/css?family=Orbitron);
+
+body {
+margin:0;
+width:100%;
+height:auto;
+background: #000000 url('../images/BG.jpeg') no-repeat center fixed;
+background-attachment:fixed;
+}
+
+/*Main Section*/
+.container{
+width: 70%;
+height:100%;
+
+}
+#c_main{
+height:100%;
+}
+
+/* Header Elements */
+header{
+margin:auto;
+}
+#siteheader{
+text-align:center;
+}
+h1, h2{
+color:#0088CC;
+font-family: 'Orbitron', sans-serif;
+}
+
+/*Navigation*/
+nav{
+float:left;
+
+}
+#options{
+width:25%;
+max-width:272px;
+min-width:244px;
+}
+#selectionbox{
+border:2px solid #a1a1a1;
+border-radius:25px;
+padding-left:14px;
+padding-top:5px;
+background-color:#FFFFFF;
+}
+
+/*Listings*/
+#queryresults{
+border:2px solid #a1a1a1;
+border-radius:25px;
+background-color:#FFFFFF;
+height:auto;
+overflow-y: auto;
+
+}
+#results{
+width:75%;
+float:right;
+clear:after;
+display:none;
+min-width:743px;
+
+
+}
+.listing{
+	height:219px;
+border-top:1px solid #eeeeee;
+border-bottom:1px solid #eeeeee;
+/*margin-left:30px;*/
+
+
+}
+.listing_img{
+float:left;
+width: 33%;
+height:100%;
+}
+.listing_img img{
+	padding-top:15px;
+	width:200px;
+	height:150px;
+	padding-left:30px;
+}
+
+.listing_details{
+float:left;
+width:33%;	
+}
+
+.listing_details h4{
+color:#0088CC;
+}
+#price{
+float:right;
+padding-right:20px;	
+}
+#order{
+}
+
+/*Misc*/
+hr{
+width:100%;
+}
+
+footer {
+	clear:after;
+	margin-left:45%;	
+	margin-right:auto;	
+}
+#errormsg{
+	text-align:center;
+	font-size:14px;	
+}
+
+/*-----------Confirmation Page-------------------------*/
+
+#confirmation{
+	width:50%;
+	border:2px solid #a1a1a1;
+	border-radius:25px;
+	background-color:#FFFFFF;
+height:auto;
+	overflow-y: auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+#confirmation h2{
+	text-align:center;
+}
+
+#confirm_message {
+	padding-left:10px;
+}
